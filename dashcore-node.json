@@ -15,9 +15,11 @@
       }
     },
     "@dashevo/insight-ui": {
-      "routePrefix": ""
+      "routePrefix": "",
+      "apiPrefix": "api"
     },
-    "@dashevo/insight-ui": {
+    "@dashevo/insight-api": {
+      "routePrefix": "api",
       "enableCache": true
     }
   }
