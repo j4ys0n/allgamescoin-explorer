@@ -1,0 +1,21 @@
+{
+  "network": "livenet",
+  "port": 80,
+  "services": [
+    "dashd",
+    "@dashevo/insight-api",
+    "@dashevo/insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "dashd": {
+      "spawn": {
+        "datadir": "./data",
+        "exec": "/xagc/allgamescoind"
+      }
+    },
+    "@dashevo/insight-api": {
+
+    }
+  }
+}
