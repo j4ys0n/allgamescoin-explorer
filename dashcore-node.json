@@ -14,8 +14,11 @@
         "exec": "/xagc/allgamescoind"
       }
     },
-    "@dashevo/insight-api": {
-
+    "@dashevo/insight-ui": {
+      "routePrefix": ""
+    },
+    "@dashevo/insight-ui": {
+      "enableCache": true
     }
   }
 }
