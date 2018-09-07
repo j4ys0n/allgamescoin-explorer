@@ -50,8 +50,8 @@ RUN npm config set package-lock false && npm install j4ys0n/allgamescoin-node
 
 RUN ./node_modules/.bin/dashcore-node create xagc-node && \
   cd xagc-node && \
-  ./node_modules/.bin/dashcore-node install j4ys0n/allgamescoin-insight-api && \
-  ./node_modules/.bin/dashcore-node install j4ys0n/allgamescoin-insight-ui
+  ./node_modules/.bin/dashcore-node install j4ys0n/raven-insight-api && \
+  ./node_modules/.bin/dashcore-node install j4ys0n/raven-insight-ui
 
 RUN apt-get purge -y \
   g++ make python gcc && \
