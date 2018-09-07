@@ -3,8 +3,8 @@
   "port": 80,
   "services": [
     "dashd",
-    "@dashevo/insight-api",
-    "@dashevo/insight-ui",
+    "insight-api",
+    "insight-ui",
     "web"
   ],
   "servicesConfig": {
@@ -14,11 +14,11 @@
         "exec": "/xagc/allgamescoind"
       }
     },
-    "@dashevo/insight-ui": {
+    "insight-ui": {
       "routePrefix": "",
       "apiPrefix": "api"
     },
-    "@dashevo/insight-api": {
+    "insight-api": {
       "routePrefix": "api",
       "enableCache": true
     }
